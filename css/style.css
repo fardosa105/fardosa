@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{ 
+    background-image:url("https://ichef.bbci.co.uk/images/ic/1920x1080/p073kkl9.jpg"); 
+    background-position:center ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 20px;
+    height: 100vh;
+}
+
+img{
+    height: 50px;
+    align-self: flex-end;
+}
+
+.contents{
+    font-size: 32px;
+ text-align: center;
+ 
+}
